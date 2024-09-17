@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configura a viewport para um layout responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Games Shop - a sua loja de games</title>
+    <!-- Link para o arquivo CSS externo que estiliza a página -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- Pré-conexão para melhorar o carregamento das fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link para as fontes personalizadas do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="container">
+            <!-- Título principal do site -->
+            <h1>Games Shop</h1>
+            <!-- Menu de navegação -->
+            <nav>
+                <ul>
+                    <li>
+                        <!-- Link para a seção 'Sobre a loja' -->
+                        <a href="#about">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <!-- Link para a seção 'Contato' -->
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção 'Sobre a loja' -->
+    <section id="about">
+        <div>
+            <div class="container">
+                <!-- Imagem da fachada da loja -->
+                <img class="front-store" src="/imagens/loja.jpg" alt="fachada da loja games shop">
+                <div>
+                    <!-- Subtítulo da seção 'Sobre a loja' -->
+                    <h2>Sobre a loja</h2>
+                    <!-- Primeiro parágrafo com informações sobre a loja -->
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi pariatur debitis nemo doloribus quibusdam facilis labore repellendus officia voluptas laborum quod, corporis nesciunt possimus, atque tempore illum, non sapiente natus!
+                    </p>
+                    <!-- Segundo parágrafo com mais informações sobre a loja -->
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde odio commodi eligendi sunt ipsum quo, consequatur distinctio quisquam iure. Nisi repudiandae officiis facilis in provident alias error quia sed.
+                    </p>
+                    <!-- Lista de marcas com seus respectivos logos -->
+                    <ul class="brand-list">
+                        <li><img src="./imagens/nintendo.png" alt="nintendo"></li>
+                        <li><img src="./imagens/xbox.png" alt="xbox"></li>
+                        <li><img src="./imagens/playstation.png" alt="playstation"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 'Contato' -->
+    <section id="contact">
+        <div class="container">
+            <!-- Título da seção de contato -->
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <!-- Formulário de contato -->
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <!-- Campo para o nome -->
+                        <input type="text" placeholder="Digite seu nome" required>
+                        <!-- Campo para o e-mail -->
+                        <input type="email" placeholder="Digite seu e-mail" required>
+                        <!-- Campo opcional para o telefone -->
+                        <input type="tel" placeholder="Digite seu numero de telefone (opcional)">
+                        <!-- Área para digitar a mensagem -->
+                        <textarea placeholder="Digite sua mensagem" required></textarea>
+                        <!-- Botão de envio -->
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <!-- Seção de links sociais -->
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <!-- Link e logo do Instagram -->
+                            <a href="#" title="Siga-nos no instagram"></a>
+                            <img src="./imagens/instagram.png" alt="logo do instagram">
+                        </li>
+                        <li>
+                            <!-- Link e logo do Facebook -->
+                            <a href="#" title="Siga-nos no facebook"></a>
+                            <img src="./imagens/facebook.png" alt="logo do facebook">
+                        </li>
+                        <li>
+                            <!-- Link e logo do YouTube -->
+                            <a href="#" title="Visite nosso canal no Youtube"></a>
+                            <img src="./imagens/youtube.png" alt="logo do youtube">
+                        </li>
+                    </ul>
+                </div>
+                <!-- Seção de endereço físico -->
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua Javascript n°124 vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <div class="container">
+            <!-- Direitos reservados -->
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+/* Remove as margens e o preenchimento de todos os elementos e define o box-sizing como border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define as fontes personalizadas para o cabeçalho, títulos e botões */
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+/* Define a fonte Roboto para o corpo, inputs e áreas de texto */
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    padding: 16px 0; /* Espaçamento interno no topo e embaixo */
+    background-color: #182c61; /* Cor de fundo do cabeçalho */
+    color: #ecf0f1; /* Cor do texto no cabeçalho */
+}
+
+/* Estilo para os itens da lista de navegação dentro do cabeçalho */
+header nav li {
+    display: inline; /* Itens da lista dispostos em linha */
+    margin-left: 16px; /* Espaçamento à esquerda de cada item */
+    font-size: 18px; /* Tamanho da fonte dos itens */
+}
+
+/* Estilo para os links dentro dos itens de navegação */
+header nav li a {
+    color: #ecf0f1; /* Cor do texto dos links */
+    text-decoration: none; /* Remove a sublinhado dos links */
+}
+
+/* Classe container para centralizar e limitar a largura do conteúdo */
+.container {
+    max-width: 1280px; /* Largura máxima do container */
+    width: 100%; /* Largura total do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+/* Estilo específico para o container dentro do cabeçalho */
+header .container {
+    display: flex; /* Exibe o conteúdo em um layout flexível */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+}
+
+/* Estilo específico para o container dentro da seção */
+section .container {
+    display: flex; /* Exibe o conteúdo em um layout flexível */
+    align-items: flex-start; /* Alinha os itens ao início verticalmente */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+}
+
+/* Estilo para as imagens dentro da lista de marcas */
+.brand-list img {
+    height: 24px; /* Define a altura das imagens */
+}
+
+/* Estilo para os itens da lista de marcas */
+.brand-list li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 8px; /* Espaçamento à direita de cada item */
+}
+
+/* Estilo geral para a seção */
+section {
+    padding: 24px 0; /* Espaçamento interno no topo e embaixo da seção */
+    color: #182c61; /* Cor do texto da seção */
+}
+
+/* Estilo para o título h2 dentro da seção */
+section h2 {
+    margin-bottom: 16px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para os parágrafos dentro da seção */
+section p {
+    margin-bottom: 8px; /* Espaçamento abaixo dos parágrafos */
+}
+
+/* Espaçamento à direita da imagem da loja */
+section .front-store {
+    margin-right: 32px;
+}
+
+/* Estilo para as imagens dos links sociais */
+.social-links img {
+    height: 24px;
+}
+
+/* Estilo para os itens da lista de links sociais */
+.social-links li {
+    display: inline;
+    margin-right: 8px; /* Espaçamento à direita de cada item */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para o container da seção de contato */
+#contact .container {
+    display: block; /* Exibe os itens em bloco */
+}
+
+/* Layout flexível para os métodos de contato */
+.contact-methods {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+}
+
+/* Estilos para os inputs, área de texto e botão no formulário */
+form input,
+form textarea,
+form button {
+    display: block; /* Exibe os elementos em bloco */
+    width: 320px; /* Largura dos inputs e botão */
+    margin-bottom: 8px; /* Espaçamento abaixo de cada elemento */
+    padding: 8px; /* Espaçamento interno dos elementos */
+}
+
+/* Impede o redimensionamento da área de texto */
+form textarea {
+    resize: none;
+    height: 108px; /* Define a altura da área de texto */
+}
+
+/* Estilo para os títulos h3 nas seções */
+section h3 {
+    margin-bottom: 8px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o botão do formulário */
+form button {
+    background-color: #182c61; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+}
+
+/* Estilo de hover para o botão do formulário */
+form button:hover {
+    background-color: #3d3be6; /* Muda a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para quando os inputs ou a área de texto estão focados */
+input:focus, textarea:focus {
+    outline-color: #182c61; /* Muda a cor do contorno ao focar */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #182c61; /* Cor de fundo do rodapé */
+    color: #ecf0f1; /* Cor do texto no rodapé */
+    padding: 16px 0px; /* Espaçamento interno no topo e embaixo */
+}
